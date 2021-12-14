@@ -24,9 +24,5 @@ node {
         	sh label: '', script: 'javac ./src/main/java/com/xavki/HelloWorld.java'
     }
 
-    stage('Run') {
-        	sh label: '', script: 'java HelloWorld'
-
-    }
 
 }
